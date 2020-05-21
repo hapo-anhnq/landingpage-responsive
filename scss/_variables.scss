@@ -6,6 +6,6 @@ $startButton-color: linear-gradient(90deg,#429321, #b4ec51);
 $startButton-shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
 
 @mixin navbar-font {
-    font-family: $roboto_regular;
-    font-size: 11px;
+  font-family: $roboto_regular;
+  font-size: 11px;
 }
