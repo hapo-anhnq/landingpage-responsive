@@ -1,16 +1,25 @@
 header {
-  background-image: url("../assets/images/rectangle@2x.png");
+  background-image: url("../assets/images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 56%; }
+  background-position: center center;
+  background-position: top;
+  height: 670px; }
 
-.header-container {
-  margin-top: -55%; }
-  .header-container div {
-    margin: 0px 5px; }
+.header-container div {
+  margin: 0px 5px; }
 
 .nav {
   margin-top: 2%; }
+
+.top-navbar {
+  height: 25%; }
+
+.header-bottom-blank {
+  height: 25%; }
+
+.header-content {
+  height: 50%; }
 
 .about-button {
   font-family: "Roboto-Regular", arial;
@@ -30,97 +39,108 @@ header {
     background-color: #8bc34a;
     color: white; }
 
-.page-logo img {
-  height: auto;
-  width: 21%;
-  margin-top: 15%; }
+.page-logo {
+  max-height: 25%; }
+  .page-logo img {
+    width: auto;
+    height: 50px; }
 
 .header-icon-container .icon-box {
-  text-align: center;
   line-height: 45px;
-  font-size: 40px;
-  margin-top: 4%;
-  color: #000; }
+  font-size: 38px;
+  color: black; }
 
 .icon-name {
-  text-align: center;
   color: black;
-  font-size: 32px;
+  font-size: 30px;
   font-family: "Roboto Light", Arial; }
 
 .icon-container i .ti-gift {
   filter: blur(0.5pt); }
 
 .intro-sentence {
-  text-align: center;
-  font-style: italic;
-  font-size: 16px;
+  height: 20%;
+  font-size: 15px;
   font-family: "Roboto-Regular", arial; }
-  .intro-sentence p {
-    margin-top: 4%; }
 
 .start-button {
   background: linear-gradient(90deg, #429321, #b4ec51);
   box-shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
-  padding: 10px 0px;
+  padding: 10px 40px;
   border-radius: 100pt;
   color: white;
-  text-align: center;
   font-family: "Roboto-Regular", arial;
   font-size: 14px;
-  width: 170px;
-  letter-spacing: 1px;
-  margin-top: 1%; }
+  letter-spacing: 1px; }
   .start-button:hover {
     color: white;
     text-decoration: none; }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  header {
+    background-image: url("../assets/images/rectangle@2x.png");
+    height: 425px; }
+
+  .top-navbar {
+    height: 18%; }
+
+  .header-bottom-blank {
+    height: 18%; }
+
+  .header-content {
+    height: 66%; }
+
   .page-logo img {
-    margin-top: 5%; }
+    height: 30px; }
 
   .header-icon-container div {
     line-height: 33px;
-    font-size: 28px;
-    margin-top: 5%; }
+    font-size: 27px; }
 
   .icon-name {
-    font-size: 25px; }
+    font-size: 24px; }
 
   .intro-sentence {
-    font-size: 15px; }
+    font-size: 14px; }
 
   .start-button {
-    padding: 14px 0px;
-    margin-top: 2%;
-    width: 155px; } }
+    padding: 13px 29px; } }
 @media screen and (max-width: 576px) {
+  header {
+    background-image: url("../assets/images/rectangle@2x.png");
+    height: 266px; }
+
+  .page-logo img {
+    height: 22px; }
+
   .about-button {
     font-family: "Roboto Medium", arial; }
+
+  .top-navbar {
+    height: 20%; }
+
+  .header-bottom-blank {
+    height: 20%; }
+
+  .header-content {
+    height: 60%; }
 
   .nav {
     margin-top: 2%; }
 
-  .page-logo img {
-    margin-top: 3%; }
-
   .header-icon-container .icon-box {
     line-height: 27px;
     font-size: 20px;
-    margin-top: 3.5%;
-    padding: 0px 10px; }
+    padding: 0 10px; }
 
   .icon-name {
     font-size: 18px; }
 
   .intro-sentence {
     font-size: 9px; }
-    .intro-sentence p {
-      margin-top: 3%; }
 
   .start-button {
-    padding: 12px 0px;
-    width: 155px;
-    margin-top: -0.5%; } }
+    padding: 10px 27px;
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
