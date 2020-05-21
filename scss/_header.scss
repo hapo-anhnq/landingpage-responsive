@@ -24,16 +24,13 @@ header {
   height: 25%;
 }
 
-.header-bottom-blank {
-  height: 25%;
-}
-
 .header-content {
   height: 50%;
 }
 
 .about-button {
   @include navbar-font;
+
   color: black;
   margin-right: 15px;
 }
@@ -54,7 +51,6 @@ header {
 }
 
 .page-logo {
-  max-height: 25%;
 
   img {
     width: auto;
@@ -65,6 +61,7 @@ header {
 .header-icon-container {
 
   .icon-box {
+    width: 250px;
     line-height: 45px;
     font-size: 38px;
     color: black;
@@ -107,17 +104,13 @@ header {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) { 
+@media screen and (max-width: 992px) { 
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 425px;
   }
 
   .top-navbar {
-    height: 18%;
-  }
-  
-  .header-bottom-blank {
     height: 18%;
   }
   
@@ -166,10 +159,6 @@ header {
   }
 
   .top-navbar {
-    height: 20%;
-  }
-
-  .header-bottom-blank {
     height: 20%;
   }
 
