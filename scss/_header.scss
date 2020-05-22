@@ -37,14 +37,14 @@ header {
 .sign-in-button {
   @include navbar-font;
 
-  color: $booger-color;
-  border: 2pt solid $booger-color;
+  color: $booger_color;
+  border: 2pt solid $booger_color;
   border-radius: 100pt;
   padding-top: 10px;
   padding-bottom: 10px;
 
   &:hover {
-    background-color: $booger-color;
+    background-color: $booger_color;
     color: white;
   }
 }
@@ -86,8 +86,8 @@ header {
 }
 
 .start-button {
-  background: $startButton-color;
-  box-shadow: $startButton-shadow;
+  background: $startButton_color;
+  box-shadow: $startButton_shadow;
   padding: 10px 40px;
   border-radius: 100pt;
   color: white;
@@ -119,10 +119,12 @@ header {
     height: 30px;
   }
 
-  .icon-box {
-    line-height: 33px;
-    font-size: 27px;
-    width: 140px;
+  .header-icon-container {
+    .icon-box {
+      line-height: 33px;
+      font-size: 27px;
+      width: 130px;
+    }
   }
 
   .icon-name {
