@@ -1,0 +1,223 @@
+/**** function row ****/
+.function-section {
+  background: $startButton_color;
+  height: 260px;
+}
+
+.function-row {
+  width: 85%;
+
+  .function-object {
+    width: auto;
+    height: auto;
+  }
+}
+
+.main-circle {
+  color: white;
+  border: 2px solid white;
+  font-size: 30px;
+  padding: 28px;
+}
+
+.index-circle {
+  width: 37px;
+  height: 37px;
+  color: white;
+  border: 2px solid white;
+  z-index: 1;
+  margin-top: -19px;
+  background-color: $index_bg_color;
+  font-family: $roboto_regular;
+  font-size: 20px;
+}
+
+.function-name {
+  line-height: 16px;
+  letter-spacing: 1px;
+
+  span {
+    color: white;
+    font-family: $roboto_medium;
+    text-transform: uppercase;
+    white-space: pre-line;
+    font-size: 15px;
+  }
+}
+
+.customer-row-pagination {
+  width: 5%;
+  height: 5%;
+  span {
+    width: 7px;
+    height: 7px;
+    border: 1px solid white;
+    display: inline-block;
+  }
+}
+
+.page-circle-light {
+  background-color: rgb(216, 216, 216);
+}
+
+/**** customer list ****/
+.customer-list-section {
+  background: url("../assets/images/rectangle3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.customer-list-title {
+  font-family: $roboto_light;
+  font-size: 40px;
+  color: white;
+  height: 90px;
+}
+
+.avatar-row {
+  width: 85%;
+
+  .customer-object {
+    width: auto;
+    height: auto;
+  }
+}
+
+.customer-avatar {
+  height: 75px;
+  width: 75px;
+}
+
+.customer-4 {
+  height: 95px;
+  width: 95px;
+}
+
+.customer-info {
+  color: white;
+  font-family: $roboto_regular;
+  height: 60px;
+}
+
+.customer-name {
+  font-size: 11px;
+}
+
+.customer-role {
+  font-size: 9px;
+}
+
+.ti-quote-left,
+.ti-quote-right {
+  color: white;
+  opacity: 40%;
+  font-size: 400%;
+  width: 100px;
+}
+
+.customer-row-quote {
+  height: 35%;
+
+  span {
+    width: 620px;
+    color: white;
+    font-family: $roboto_light;
+    font-size: 15px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /**** function row ****/
+  .function-row {
+    width: 100%;
+  }
+
+  /**** customer list ****/
+  .avatar-row {
+    width: 100%;
+  }
+
+  .customer-list-section {
+    height: 544px;
+  }
+
+  .ti-quote-left,
+  .ti-quote-right {
+    width: 70px;
+  }
+
+  .customer-row-pagination {
+    width: 10%;
+
+    span {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  .customer-row-quote {
+    height: 43%;
+
+    span {
+      width: 600px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .function-section {
+    height: 296px;
+  }
+
+  .function-row {
+    width: 100%;
+    height: 200px;
+  }
+
+  .function-name {
+    line-height: 13px;
+  }
+
+  .main-circle {
+    font-size: 36px;
+    padding: 35px;
+  }
+
+  .index-circle {
+    width: 45px;
+    height: 45px;
+    margin-top: -19px;
+    font-size: 23px;
+  }
+
+  /**** customer list ****/
+  .customer-list-title {
+    font-size: 30px;
+    height: 70px;
+  }
+
+  .ti-quote-left,
+  .ti-quote-right {
+    height: 100px;
+  }
+
+  .customer-row-pagination {
+    height: 50px;
+    width: 80px;
+  }
+
+  .customer-row-quote {
+    height: 44%;
+
+    span {
+      width: 460px;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: -0.03px;
+    }
+  }
+}

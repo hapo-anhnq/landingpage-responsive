@@ -1,4 +1,4 @@
-$roboto_regular: 'Roboto-Regular', arial;
+$roboto_regular: 'Roboto Regular', arial;
 $roboto_light: 'Roboto Light', Arial;
 $roboto_medium: 'Roboto Medium', arial;
 $booger_color: #8bc34a;
@@ -11,6 +11,9 @@ $startButton_shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
   font-family: $roboto_regular;
   font-size: 11px;
 }
+
+/**** function row ****/
+$index_bg_color: rgb(124, 179, 66);
 
 /**** footer ****/
 $footer_color: rgb(57, 71, 78);
