@@ -18,7 +18,7 @@
 
 .section-title {
   font-family: $roboto_light;
-  color: rgb(68, 68, 68);
+  color: #444444;
 
   span {
     font-size: 41px;
@@ -35,13 +35,13 @@
 
   .description-text,
   .section-intro-text {
-    color: rgb(40, 50, 56);
+    color: #283238;
     font-family: $roboto_regular;
   }
 }
 
 .section-intro-text {
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -52,7 +52,7 @@
 
 .content-text {
   p {
-    color: rgb(40, 50, 56);
+    color: #283238;
     font-family: $roboto_regular;
     font-size: 13px;
     line-height: 24px;
@@ -210,6 +210,7 @@
 }
 
 @media screen and (max-width: 768px) {
+  /**** detail section ****/
   .detail-section {
     height: 526px;
   }
@@ -295,6 +296,7 @@
 }
 
 @media screen and (max-width: 480px) {
+  /**** detail section ****/
   .detail-section {
     height: 687px;
   }
