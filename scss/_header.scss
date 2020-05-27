@@ -8,12 +8,6 @@ header {
   height: 670px;
 }
 
-.header-container {
-  div {
-    margin: 0 5px;
-  }
-}
-
 .nav {
   margin-top: 2%;
 }
@@ -56,6 +50,8 @@ header {
 }
 
 .header-icon-container {
+  height: 50%;
+
   .icon-box {
     width: 250px;
     line-height: 45px;
@@ -79,7 +75,7 @@ header {
 }
 
 .intro-sentence {
-  height: 20%;
+  height: 50%;
   font-size: 15px;
   font-family: $roboto_regular;
 }
@@ -107,23 +103,33 @@ header {
   }
 
   .top-navbar {
-    height: 18%;
+    height: 20%;
   }
 
   .header-content {
-    height: 66%;
+    height: 60%;
   }
 
-  .page-logo img {
-    height: 30px;
+  .header-container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .page-logo {
+    img {
+      height: 30px;
+    }
   }
 
   .header-icon-container {
     .icon-box {
+      width: 170px;
       line-height: 33px;
-      font-size: 27px;
-      width: 130px;
-    }
+
+      i {
+        font-size: 26px;
+      }
+    } 
   }
 
   .icon-name {
@@ -139,14 +145,16 @@ header {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 266px;
   }
 
-  .page-logo img {
-    height: 22px;
+  .page-logo {
+    img {
+      height: 22px;
+    }
   }
 
   .about-button {
@@ -158,7 +166,11 @@ header {
   }
 
   .header-content {
-    height: 60%;
+    height: 70%;
+  }
+
+  .page-logo {
+    height: 30%;
   }
 
   .nav {
@@ -167,7 +179,6 @@ header {
 
   .icon-box {
     line-height: 27px;
-    font-size: 20px;
     padding: 0 10px;
     width: 100px;
   }
@@ -176,12 +187,25 @@ header {
     font-size: 18px;
   }
 
+  .header-icon-container {
+    height: 60%;
+
+    .icon-box {
+      width: 120px;
+      line-height: 27px;
+
+      i {
+        font-size: 23px;
+      }
+    } 
+  }
+
   .intro-sentence {
     font-size: 9px;
+    height: 30%;
   }
 
   .start-button {
     padding: 10px 27px;
-    margin-top: 20px;
   }
 }
