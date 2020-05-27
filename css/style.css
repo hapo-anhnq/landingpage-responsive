@@ -5,9 +5,7 @@
 @media screen and (max-width: 768px) {
   .container-r {
     width: 100%; } }
-/**** header ****/
-/**** function row ****/
-/**** footer ****/
+    
 header {
   background-image: url("../assets/images/banner.png");
   background-repeat: no-repeat;
