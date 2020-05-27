@@ -15,20 +15,20 @@
     <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css" />
 </head>
 <body>
-    <header>
-        <div class="container-lg header-container d-flex flex-column h-100">
-            <div class="row top-navbar align-items-start justify-content-end w-100">
+    <header class="d-flex justify-content-center">
+        <div class="container-r d-flex flex-column">
+            <div class="top-navbar d-flex align-items-start justify-content-end w-100">
                 <nav class="nav">
                     <a class="nav-link about-button" href="#">ABOUT US</a>
                     <a class="nav-link sign-in-button" href="#">SIGN IN</a>
                 </nav>
             </div>
-            <div class="row header-content d-flex flex-column w-100">
-                <div class="row h-25 page-logo align-items-center justify-content-center">
+            <div class="header-content d-flex flex-column justify-content-between w-100">
+                <div class="row page-logo align-items-center justify-content-center">
                     <img class="erp-logo img-fluid" src="assets\images\hapoErp.png" alt="hapoErp"/>
                 </div>
-                <div class="row h-50 d-flex flex-column w-100">
-                    <div class="row h-75 align-items-center header-icon-container w-100 justify-content-center">
+                <div class="d-flex flex-column w-100">
+                    <div class="d-flex align-items-center header-icon-container w-100 justify-content-center">
                         <div class="icon-box text-center">
                             <div class="icon-container">
                                 <i class="ti-gift"></i>
@@ -54,12 +54,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row h-25 intro-sentence align-items-end justify-content-center">
+                    <div class="intro-sentence d-flex align-items-end justify-content-center">
                         <i>Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry</i>
                     </div>
                 </div>
-                <div class="row h-25 align-items-center justify-content-center">
+                <div class="row header-button-container align-items-center justify-content-center">
                     <a type="button" class="start-button text-center" href="#">START NOW</a>
                 </div>
             </div>
@@ -68,20 +68,20 @@
 
     <main>
 
-        <div class="detail-section til-section">
-            <div class="w-100 d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-center">
+        <div class="detail-section til-section d-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-start justify-content-md-center">
                     <div class="section-title">
                         <i class="ti-bookmark-alt title-icon"></i>
                         <span class="til-title-text">Today I learnt</span>
                     </div>
                     <span class="section-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
                 </div>
-                <div class="row detail-content-row d-flex justify-content-between">
-                    <div class="section-img">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl col-md col-12 section-img">
                         <img class="des-img" src="assets\images\til.png" alt="til-img">
                     </div>
-                    <div class="section-description d-flex flex-column justify-content-between">
+                    <div class="col-xl col-md col-12 section-description d-flex flex-column justify-content-between">
                         <div class="section-title align-items-baseline d-lg-flex d-md-none d-none">
                             <i class="ti-bookmark-alt title-icon"></i>
                             <span class="til-title-text">Today I learnt</span>
@@ -99,17 +99,17 @@
             </div>
         </div>
 
-        <div class="detail-section daily-report-section">
-            <div class="w-100 d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-center">
+        <div class="detail-section daily-report-section d-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-start justify-content-md-center">
                     <div class="section-title">
                         <i class="ti-write title-icon"></i>
                         <span class="til-title-text">Daily report</span>
                     </div>
                     <span class="section-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
                 </div>
-                <div class="row detail-content-row d-flex justify-content-between">
-                    <div class="section-description d-flex flex-column justify-content-between">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl col-md col-12 section-description d-flex flex-column justify-content-between">
                         <div class="section-title align-items-baseline d-lg-flex d-md-none d-none">
                             <i class="ti-write title-icon"></i>
                             <span class="til-title-text">Daily report</span>
@@ -120,7 +120,7 @@
                             <a type="button" class="start-button text-center" href="#">START NOW</a>
                         </div>
                     </div>
-                    <div class="section-img">
+                    <div class="col-xl col-md col-12 section-img">
                         <img class="des-img"  src="assets\images\dailyReport.png" alt="project-img">
                     </div>
                 </div>
@@ -130,9 +130,9 @@
             </div>
         </div>
 
-        <div class="function-section">
-            <div class="container-lg function-section-container d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="d-flex function-row justify-content-between">
+        <div class="function-section d-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="row d-flex justify-content-between w-100">
                     <div class="function-object d-flex flex-column daily-report-object align-items-center justify-content-center">
                         <div class="main-circle rounded-circle d-flex align-items-center justify-content-center">
                             <i class="ti-write"></i>
@@ -212,17 +212,17 @@
             </div>
         </div>
 
-        <div class="detail-section members-section">
-            <div class="w-100 d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-center">
+        <div class="detail-section members-section d-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-start justify-content-md-center">
                     <div class="section-title">
                         <i class="ti-user title-icon"></i>
                         <span class="til-title-text">Members</span>
                     </div>
                     <span class="section-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
                 </div>
-                <div class="row detail-content-row d-flex justify-content-between">
-                    <div class="section-description d-flex flex-column justify-content-between">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl col-md col-12 section-description d-flex flex-column justify-content-between">
                         <div class="section-title align-items-baseline d-lg-flex d-md-none d-none">
                             <i class="ti-user title-icon"></i>
                             <span class="til-title-text">Members</span>
@@ -233,7 +233,7 @@
                                 <div class="content-icon">
                                     <span class=" ti-check-box"></span>
                                 </div>
-                                <div class="content-text">
+                                <div class="content-text d-flex justify-content-end">
                                     <p class="text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -244,7 +244,7 @@
                                 <div class="content-icon">
                                     <span class="ti-check-box"></span>
                                 </div>
-                                <div class="content-text">
+                                <div class="content-text d-flex justify-content-end">
                                     <p class="text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -255,7 +255,7 @@
                                 <div class="content-icon">
                                     <span class="ti-check-box"></span>
                                 </div>
-                                <div class="content-text">
+                                <div class="content-text d-flex justify-content-end">
                                     <p class="text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -267,7 +267,7 @@
                             <a type="button" class="start-button text-center" href="#">START NOW</a>
                         </div>
                     </div>
-                    <div class="section-img">
+                    <div class="col-xl col-md col-12 section-img">
                         <img class="members-section-img"  src="assets\images\members.png" alt="project-img">
                     </div>
                 </div>
@@ -277,20 +277,20 @@
             </div>
         </div>
 
-        <div class="detail-section customers-section d-none d-xl-flex d-md-flex">
-            <div class="w-100 d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-center">
+        <div class="detail-section customers-section d-none d-xl-flex d-md-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-start justify-content-md-center">
                     <div class="section-title">
                         <i class="ti-face-smile title-icon"></i>
                         <span class="til-title-text">Customers</span>
                     </div>
                     <span class="section-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
                 </div>
-                <div class="row detail-content-row d-flex justify-content-between">
-                    <div class="section-img">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl col-md col-12 section-img">
                         <img class="des-img"  src="assets\images\dailyReport.png" alt="project-img">
                     </div>
-                    <div class="section-description d-flex flex-column justify-content-between">
+                    <div class="col-xl col-md col-12 section-description d-flex flex-column justify-content-between">
                         <div class="section-title align-items-baseline d-lg-flex d-md-none d-none">
                             <i class="ti-face-smile title-icon"></i>
                             <span class="til-title-text">Customers</span>
@@ -301,7 +301,7 @@
                                 <div class="content-icon">
                                     <span class="ti-lock"></span>
                                 </div>
-                                <div class="content-text">
+                                <div class="content-text d-flex justify-content-end">
                                     <p class="text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -312,7 +312,7 @@
                                 <div class="content-icon">
                                     <span class="ti-cup"></span>
                                 </div>
-                                <div class="content-text">
+                                <div class="content-text d-flex justify-content-end">
                                     <p class="text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -323,7 +323,7 @@
                                 <div class="content-icon">
                                     <span class="ti-stats-up"></span>
                                 </div>
-                                <div class="content-text">
+                                <div class="content-text d-flex justify-content-end">
                                     <p class="text-justify">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
@@ -342,14 +342,14 @@
             </div>
         </div>
 
-        <div class="customer-list-section">
-            <div class="container-lg function-section-container d-flex flex-column align-items-center justify-content-center h-100">
+        <div class="customer-list-section d-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
                 <div class="customer-list-title d-flex text-center align-items-start">
                     <span>
                         Our customer
                     </span>
                 </div>
-                <div class="avatar-row d-flex align-items-center justify-content-between">
+                <div class="row d-flex align-items-center justify-content-between w-100">
                     <div class="customer-object text-center d-none d-xl-block d-md-none">
                         <div class="avatar">
                             <img class="customer-avatar" src="assets\images\rectangle4Copy2.png" alt="avatar">
@@ -436,17 +436,17 @@
             </div>
         </div>
 
-        <div class="detail-section project-section daily-report-section">
-            <div class="w-100 d-flex flex-column align-items-center justify-content-center h-100">
-                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-center">
+        <div class="detail-section project-section daily-report-section d-flex justify-content-center">
+            <div class="container-r d-flex flex-column align-items-center justify-content-center h-100">
+                <div class="title-container d-flex flex-column d-lg-none align-items-center justify-content-start justify-content-md-center">
                     <div class="section-title">
                         <i class="ti-calendar title-icon"></i>
                         <span class="til-title-text">Project</span>
                     </div>
                     <span class="section-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
                 </div>
-                <div class="row detail-content-row d-flex justify-content-between">
-                    <div class="section-description d-flex flex-column justify-content-between">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl col-md col-12 section-description d-flex flex-column justify-content-between">
                         <div class="section-title align-items-baseline d-lg-flex d-md-none d-none">
                             <i class="ti-calendar title-icon"></i>
                             <span class="til-title-text">Project</span>
@@ -457,7 +457,7 @@
                             <a type="button" class="start-button text-center" href="#">START NOW</a>
                         </div>
                     </div>
-                    <div class="section-img">
+                    <div class="col-xl col-md col-12 section-img">
                         <img class="des-img"  src="assets\images\dailyReport.png" alt="project-img">
                     </div>
                 </div>
@@ -469,90 +469,89 @@
 
     </main>
 
-    <footer>
-        <div class="container-lg footer-container d-flex align-items-center justify-content-center h-100">
-            <div class="row d-flex footer-row justify-content-between">
-                <div class="logo-col">
-                    <div class="d-flex footer-menu-title footer-image align-items-start">
-                        <img class="footer-logo-image" src="assets\images\hapoErp.png" alt="footer-hapoErp">
-                    </div>
-                    <div class="d-flex footer-menu-list footer-copyright align-items-end">
-                        <span class="copyright-text">Copyright 2017</span>
-                    </div>  
+    <footer class="d-flex align-items-center justify-content-center">
+        <div class="row footer-row d-flex container-r justify-content-between">
+            <div class="logo-col">
+                <div class="d-flex footer-menu-title footer-image align-items-start w-100">
+                    <img class="footer-logo-image" src="assets\images\hapoErp.png" alt="footer-hapoErp">
                 </div>
-                <div class="menu-col">
-                    <div class="d-flex footer-menu-title align-items-start">
-                        <span>Get in touch</span>
-                    </div>
-                    <div class="d-flex footer-menu-list align-items-end">
-                        <div class="footer-link">
-                            <div>
-                                <a href="#">Contact us</a>
-                            </div>
-                            <div>
-                                <a href="#">Contact Sales</a>
-                            </div>
-                        </div> 
-                    </div>      
+                <div class="d-xl-flex d-md-flex d-none footer-menu-list footer-copyright align-items-end">
+                    <span class="copyright-text">Copyright 2017</span>
+                </div>  
+            </div>
+            <div class="menu-col">
+                <div class="d-flex footer-menu-title align-items-start">
+                    <span>Get in touch</span>
                 </div>
-                <div class="menu-col"> 
-                    <div class="d-flex footer-menu-title align-items-start">
-                        <span>Learn more</span>
-                    </div>
-                    <div class="d-flex footer-menu-list align-items-end">
-                        <div class="footer-link">
-                            <div>
-                                <a href="#">About us</a>
-                            </div>
-                            <div>
-                                <a href="#">About Hapo-ERP</a>
-                            </div> 
-                        </div>     
-                    </div>      
-                </div>
-                <div class="menu-col">
-                    <div class="d-flex footer-menu-title align-items-start">
-                        <span>How to works</span>
-                    </div>
-                    <div class="d-flex footer-menu-list align-items-end">
-                        <div class="footer-link">
-                            <div>
-                                <a href="#">About us</a>
-                            </div>
-                            <div>
-                                <a href="#">About Hapo-ERP</a>
-                            </div> 
+                <div class="d-flex footer-menu-list align-items-end">
+                    <div class="footer-link">
+                        <div>
+                            <a href="#">Contact us</a>
                         </div>
-                    </div>      
-                </div>
-                <div class="menu-col">
-                    <div class="d-flex footer-menu-title align-items-start">
-                        <span>Legal</span>
-                    </div>
-                    <div class="d-flex footer-menu-list align-items-end">
-                        <div class="footer-link">
-                            <div>
-                                <a href="#">Terms of Service</a>
-                            </div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                            </div> 
+                        <div>
+                            <a href="#">Contact Sales</a>
                         </div>
-                    </div>      
-                </div>
-                <div class="footer-icon-col d-flex align-items-end">
-                    <div class="footer-icon-row">
-                        <i class="ti-facebook"></i>
-                        <i class="ti-twitter"></i>
-                        <i class="ti-youtube"></i>
-                        <i class="ti-linkedin"></i>
-                    </div>
-                    <div class="mobile-copyright">
-                        <span class="copyright-text">Copyright 2017</span>
                     </div> 
+                </div>      
+            </div>
+            <div class="menu-col"> 
+                <div class="d-flex footer-menu-title align-items-start">
+                    <span>Learn more</span>
                 </div>
-            </div>           
+                <div class="d-flex footer-menu-list align-items-end">
+                    <div class="footer-link">
+                        <div>
+                            <a href="#">About us</a>
+                        </div>
+                        <div>
+                            <a href="#">About Hapo-ERP</a>
+                        </div> 
+                    </div>     
+                </div>      
+            </div>
+            <div class="menu-col">
+                <div class="d-flex footer-menu-title align-items-start">
+                    <span>How to works</span>
+                </div>
+                <div class="d-flex footer-menu-list align-items-end">
+                    <div class="footer-link">
+                        <div>
+                            <a href="#">About us</a>
+                        </div>
+                        <div>
+                            <a href="#">About Hapo-ERP</a>
+                        </div> 
+                    </div>
+                </div>      
+            </div>
+            <div class="menu-col">
+                <div class="d-flex footer-menu-title align-items-start">
+                    <span>Legal</span>
+                </div>
+                <div class="d-flex footer-menu-list align-items-end">
+                    <div class="footer-link">
+                        <div>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                        <div>
+                            <a href="#">Privacy Policy</a>
+                        </div> 
+                    </div>
+                </div>      
+            </div>
+            <div class="footer-icon-col d-flex align-items-end justify-content-between">
+                <div class="footer-icon-row">
+                    <i class="ti-facebook"></i>
+                    <i class="ti-twitter"></i>
+                    <i class="ti-youtube"></i>
+                    <i class="ti-linkedin"></i>
+                </div>
+                <div class="mobile-copyright d-xl-none d-md-none d-flex">
+                    <span class="copyright-text">Copyright 2017</span>
+                </div> 
+            </div>
         </div>
     </footer>
+
 </body>
 </html>

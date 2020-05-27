@@ -1,26 +1,11 @@
-
 footer {
   background: $footer-color;
   height: 190px;
 }
 
-.footer-container {
-  div {
-    font-family: $roboto_medium;
-  }
-
-  .footer-row {
-    width: 85%;
-    height: 37%;
-
-    .logo-col {
-      width: auto;
-    }
-
-    .menu-col {
-      width: auto;
-    }
-  }
+.footer-row {
+  height: 37%;
+  font-family: $roboto_medium;
 }
 
 .footer-logo-image {
@@ -30,13 +15,13 @@ footer {
 
 .copyright-text {
   color: $silver_color;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .footer-menu-title {
   text-transform: uppercase;
   color: $booger_color;
-  font-size: 12px;
+  font-size: 13px;
   height: 40%;
 }
 
@@ -59,12 +44,11 @@ footer {
 .footer-icon-col {
   color: $booger_color;
   width: auto;
-  height: 100%;
   justify-content: flex-end;
 
   i {
     font-size: 75%;
-    margin: 0 10px;
+    margin: 0 15px;
   }
 
   .mobile-copyright {
@@ -84,25 +68,19 @@ footer {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
+  .footer-row {
+    height: 75%;
+    margin-top: 7%;
+  }
+
   footer {
     height: 209px;
   }
 
-  .footer-row {
-    height: 75%;
-  }
-
   .logo-col {
     width: 100%;
-  }
-
-  .footer-copyright {
-    height: 15px;
-
-    span {
-      display: none;
-    }
+    height: 30px;
   }
 
   .menu-col {
@@ -111,9 +89,7 @@ footer {
 
   .footer-icon-col {
     width: 100%;
-    height: 25%;
-    justify-content: space-between;
-    margin-top: 10px;
+    height: 30%;
 
     i {
       font-size: 75%;
@@ -121,11 +97,7 @@ footer {
     }
 
     .footer-icon-row {
-      margin-left: -10px;
-    }
-
-    .mobile-copyright {
-      display: flex;
+    margin-left: -10px;
     }
   }
 }

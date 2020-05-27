@@ -3,6 +3,17 @@ $roboto_light: 'Roboto Light', arial;
 $roboto_medium: 'Roboto Medium', arial;
 $booger_color: #8bc34a;
 
+.container-r {
+  width: 61%;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-r {
+    width: 100%;
+  }
+}
+
 /**** header ****/
 $startButton_color: linear-gradient(90deg,#429321, #b4ec51);
 $startButton_shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
@@ -13,6 +24,7 @@ $startButton_shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
 }
 
 /**** function row ****/
+$row_bg_color: linear-gradient(90deg,#429321, #b4ec51);
 $index_bg_color: rgb(124, 179, 66);
 
 /**** footer ****/
