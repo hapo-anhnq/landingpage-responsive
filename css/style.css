@@ -2,9 +2,6 @@
   width: 65%;
   padding: 0 15px; }
 
-html {
-  overflow-x: hidden; }
-
 @media only screen and (max-width: 768px) {
   .container-r {
     width: 100%; } }
@@ -17,7 +14,8 @@ header {
   background-size: cover;
   background-position: center center;
   background-position: top;
-  height: 670px; }
+  height: 670px;
+  overflow-x: hidden; }
 
 .nav {
   margin-top: 2%; }
@@ -116,7 +114,7 @@ header {
 
   .start-button {
     padding: 13px 29px; } }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 266px; }
@@ -134,35 +132,38 @@ header {
     height: 70%; }
 
   .page-logo {
-    height: 30%; }
+    height: 23%; }
 
   .nav {
     margin-top: 2%; }
 
   .icon-name {
-    font-size: 10px; }
+    font-size: 19px; }
 
-  .header-icon-container {
-    height: 60%; }
-    .header-icon-container .icon-box {
-      width: 120px;
-      line-height: 27px;
-      padding: 0 10px; }
-      .header-icon-container .icon-box i {
-        font-size: 21px; }
+  .icon-text-container {
+    height: 40%; }
+
+  .header-icon-container .icon-box {
+    width: 120px;
+    line-height: 17px;
+    padding: 0 10px; }
+    .header-icon-container .icon-box i {
+      font-size: 20px; }
 
   .intro-sentence {
-    font-size: 9px;
-    height: 30%; }
+    font-size: 9px; }
 
   .start-button {
     padding: 10px 27px; } }
+body {
+  overflow-x: hidden; }
+
 /**** detail section ****/
 .detail-section {
   height: 550px; }
 
 .section-img .des-img {
-  height: auto;
+  height: 100%;
   width: 100%; }
 .section-img .customer-img {
   height: 103%; }
@@ -184,7 +185,8 @@ header {
 
 .section-intro-text {
   font-size: 12px;
-  font-style: italic; }
+  font-style: italic;
+  font-family: "Roboto Regular", arial; }
 
 .description-text {
   font-size: 11px;
@@ -202,8 +204,8 @@ header {
   width: 30px; }
 
 .members-section-img {
-  height: 388px;
-  width: 497px; }
+  height: 100%;
+  width: 100%; }
 
 .til-section {
   box-shadow: 0 10pt 10pt 0 rgba(0, 0, 0, 0.1); }
@@ -300,7 +302,7 @@ header {
   color: white;
   opacity: 40%;
   font-size: 72px;
-  width: 100px; }
+  width: auto; }
 
 .customer-row-quote {
   height: 35%; }
@@ -365,16 +367,16 @@ header {
       width: 600px;
       font-size: 18px;
       line-height: 30px; } }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   /**** detail section ****/
   .detail-section {
-    height: 687px; }
+    height: 650px; }
 
   .title-container {
-    height: 80px; }
+    height: 70px; }
 
   .title-icon {
-    font-size: 15px; }
+    font-size: 19px; }
 
   .section-title span {
     font-size: 23px;
@@ -394,16 +396,16 @@ header {
 
   .section-intro-text {
     margin-top: 5px;
-    font-size: 10px; }
+    font-size: 11px; }
 
   .description-text {
-    font-size: 9px; }
+    font-size: 12px; }
 
   .button-container {
     height: auto; }
 
   .members-section {
-    height: 850px; }
+    height: 730px; }
 
   .members-section-img {
     height: auto;
@@ -411,7 +413,7 @@ header {
     padding-bottom: 10px; }
 
   .content-text p {
-    width: 431px; }
+    width: 96%; }
 
   /**** function row ****/
   .function-section {
@@ -437,22 +439,23 @@ header {
 
   .ti-quote-left,
   .ti-quote-right {
-    height: 100px; }
+    height: 100px;
+    font-size: 50px; }
 
   .customer-row-pagination {
-    height: 50px;
-    width: 80px; }
+    height: 50px; }
 
   .customer-row-quote {
     height: 44%; }
     .customer-row-quote span {
-      width: 460px;
-      font-size: 14px;
+      width: 100%;
+      font-size: 13px;
       line-height: 25px;
       letter-spacing: -0.03px; } }
 footer {
   background: #39474e;
-  height: 190px; }
+  height: 190px;
+  overflow-x: hidden; }
 
 .footer-row {
   height: 37%;
@@ -498,7 +501,7 @@ footer {
 
   .footer-icon-col i {
     margin: 0 5px; } }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .footer-row {
     height: 75%;
     margin-top: 7%; }
