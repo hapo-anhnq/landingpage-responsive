@@ -1,7 +1,16 @@
 .container-r {
-  width: 65%;
+  width: 59%;
   padding: 0 15px; }
 
+@media only screen and (max-width: 1700px) {
+  .container-r {
+    width: 63%; } }
+@media only screen and (max-width: 1460px) {
+  .container-r {
+    width: 73%; } }
+@media only screen and (max-width: 1250px) {
+  .container-r {
+    width: 75%; } }
 @media only screen and (max-width: 768px) {
   .container-r {
     width: 100%; } }
@@ -172,11 +181,11 @@ body {
   font-family: "Roboto Light", arial;
   color: #444444; }
   .section-title span {
-    font-size: 37px;
+    font-size: 41px;
     padding: 0 20px; }
 
 .title-icon {
-  font-size: 29px; }
+  font-size: 31px; }
 
 .section-description .description-text,
 .section-description .section-intro-text {
@@ -184,18 +193,18 @@ body {
   font-family: "Roboto Regular", arial; }
 
 .section-intro-text {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   font-family: "Roboto Regular", arial; }
 
 .description-text {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px; }
 
 .content-text p {
   color: #283238;
   font-family: "Roboto Regular", arial;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 24px;
   width: 95%; }
 
@@ -305,7 +314,7 @@ body {
   color: white;
   opacity: 40%;
   font-size: 72px;
-  width: auto; }
+  width: 85px; }
 
 .customer-row-quote {
   height: 35%; }
@@ -317,6 +326,17 @@ body {
     line-height: 30px;
     letter-spacing: -0.03px; }
 
+@media only screen and (max-width: 1600px) {
+  .section-intro-text {
+    font-size: 12px; }
+
+  .description-text {
+    font-size: 11px;
+    line-height: 20px; }
+
+  .content-text p {
+    font-size: 11px;
+    line-height: 24px; } }
 @media only screen and (max-width: 768px) {
   /**** detail section ****/
   .detail-section {
@@ -342,9 +362,6 @@ body {
   .members-section-img {
     height: 270px;
     width: 353px; }
-
-  .customers-section {
-    box-shadow: none; }
 
   .content-text p {
     width: 95%;
@@ -443,7 +460,8 @@ body {
   .ti-quote-left,
   .ti-quote-right {
     height: 100px;
-    font-size: 50px; }
+    font-size: 50px;
+    width: auto; }
 
   .customer-row-pagination {
     height: 50px; }

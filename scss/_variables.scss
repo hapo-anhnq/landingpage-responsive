@@ -4,8 +4,26 @@ $roboto_medium: "Roboto Medium", arial;
 $booger_color: #8bc34a;
 
 .container-r {
-  width: 65%;
+  width: 59%;
   padding: 0 15px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .container-r {
+    width: 63%;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .container-r {
+    width: 73%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .container-r {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 768px) {

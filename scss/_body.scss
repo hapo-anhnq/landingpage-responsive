@@ -23,13 +23,13 @@ body {
   color: #444444;
 
   span {
-    font-size: 37px;
+    font-size: 41px;
     padding: 0 20px;
   }
 }
 
 .title-icon {
-  font-size: 29px;
+  font-size: 31px;
 }
 
 .section-description {
@@ -41,13 +41,13 @@ body {
 }
 
 .section-intro-text {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   font-family: $roboto_regular;
 }
 
 .description-text {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
 }
 
@@ -55,7 +55,7 @@ body {
   p {
     color: #283238;
     font-family: $roboto_regular;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 24px;
     width: 95%;
   }
@@ -197,7 +197,7 @@ body {
   color: white;
   opacity: 40%;
   font-size: 72px;
-  width: auto;
+  width: 85px;
 }
 
 .customer-row-quote {
@@ -210,6 +210,24 @@ body {
     font-size: 18px;
     line-height: 30px;
     letter-spacing: -0.03px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .section-intro-text {
+    font-size: 12px;
+  }
+  
+  .description-text {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  
+  .content-text {
+    p {
+      font-size: 11px;
+      line-height: 24px;
+    }
   }
 }
 
@@ -246,10 +264,6 @@ body {
   .members-section-img {
     height: 270px;
     width: 353px;
-  }
-
-  .customers-section {
-    box-shadow: none;
   }
 
   .content-text {
@@ -386,6 +400,7 @@ body {
   .ti-quote-right {
     height: 100px;
     font-size: 50px;
+    width: auto;
   }
 
   .customer-row-pagination {
