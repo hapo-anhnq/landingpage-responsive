@@ -1,3 +1,4 @@
+
 /**** detail section ****/
 .detail-section {
   height: 550px;
@@ -8,6 +9,10 @@
     height: auto;
     width: 100%;
   }
+
+  .customer-img {
+    height: 103%;
+  }
 }
 
 .section-title {
@@ -15,13 +20,13 @@
   color: #444444;
 
   span {
-    font-size: 41px;
+    font-size: 37px;
     padding: 0 20px;
   }
 }
 
 .title-icon {
-  font-size: 30px;
+  font-size: 29px;
 }
 
 .section-description {
@@ -33,22 +38,22 @@
 }
 
 .section-intro-text {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
 }
 
 .description-text {
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 11px;
+  line-height: 20px;
 }
 
 .content-text {
   p {
     color: #283238;
     font-family: $roboto_regular;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 24px;
-    width: 519px;
+    width: 95%;
   }
 }
 
@@ -198,7 +203,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /**** detail section ****/
   .detail-section {
     height: 526px;
@@ -274,7 +279,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   /**** detail section ****/
   .detail-section {
     height: 687px;
@@ -285,12 +290,12 @@
   }
 
   .title-icon {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .section-title {
     span {
-      font-size: 27px;
+      font-size: 23px;
       padding: 0 5px;
     }
   }
@@ -301,7 +306,7 @@
 
     .des-img {
       height: auto;
-      width: 450px;
+      width: 100%;
     }
   }
 
@@ -313,7 +318,11 @@
   
   .section-intro-text {
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 10px;
+  }
+
+  .description-text {
+    font-size: 9px;
   }
 
   .button-container {
