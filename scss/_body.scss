@@ -375,7 +375,7 @@ body {
 
   /**** function row ****/
   .function-section {
-    height: 296px;
+    height: 250px;
   }
 
   .function-name {
@@ -396,24 +396,24 @@ body {
 
   /**** customer list ****/
   .customer-list-title {
-    font-size: 30px;
+    font-size: 27px;
     height: 70px;
   }
 
   .ti-quote-left,
   .ti-quote-right {
-    height: 100px;
+    // height: 100px;
     font-size: 50px;
     width: auto;
   }
 
   .customer-row-pagination {
     height: 50px;
-    width: 55px;
+    width: 17%;
   }
 
   .customer-row-quote {
-    height: 44%;
+    height: 38%;
 
     span {
       width: 100%;
@@ -421,5 +421,25 @@ body {
       line-height: 25px;
       letter-spacing: -0.03px;
     }
+  }
+
+  .customer-avatar {
+    height: 65px;
+    width: 65px;
+  }
+  
+  .customer-4 {
+    height: 85px;
+    width: 85px;
+  }
+
+  .customer-name {
+    white-space: pre-line;
+    line-height: 15px;
+  }
+
+  .customer-role {
+    font-size: 9px;
+    line-height: 9px;
   }
 }
