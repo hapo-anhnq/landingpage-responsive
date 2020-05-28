@@ -96,7 +96,7 @@ header {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px)  {
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 425px;
@@ -145,7 +145,7 @@ header {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 425px)  {
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 266px;
@@ -153,7 +153,7 @@ header {
 
   .page-logo {
     img {
-      height: 22px;
+      height: 21px;
     }
   }
 
@@ -177,14 +177,8 @@ header {
     margin-top: 2%;
   }
 
-  .icon-box {
-    line-height: 27px;
-    padding: 0 10px;
-    width: 100px;
-  }
-
   .icon-name {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .header-icon-container {
@@ -193,9 +187,10 @@ header {
     .icon-box {
       width: 120px;
       line-height: 27px;
+      padding: 0 10px;
 
       i {
-        font-size: 23px;
+        font-size: 21px;
       }
     } 
   }

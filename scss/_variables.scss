@@ -4,11 +4,15 @@ $roboto_medium: 'Roboto Medium', arial;
 $booger_color: #8bc34a;
 
 .container-r {
-  width: 61%;
+  width: 65%;
   padding: 0 15px;
 }
 
-@media screen and (max-width: 768px) {
+html {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
   .container-r {
     width: 100%;
   }

@@ -1,11 +1,16 @@
 .container-r {
-  width: 61%;
+  width: 65%;
   padding: 0 15px; }
 
-@media screen and (max-width: 768px) {
+html {
+  overflow-x: hidden; }
+
+@media only screen and (max-width: 768px) {
   .container-r {
     width: 100%; } }
-    
+/**** header ****/
+/**** function row ****/
+/**** footer ****/
 header {
   background-image: url("../assets/images/banner.png");
   background-repeat: no-repeat;
@@ -79,7 +84,7 @@ header {
     color: white;
     text-decoration: none; }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 425px; }
@@ -111,13 +116,13 @@ header {
 
   .start-button {
     padding: 13px 29px; } }
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   header {
     background-image: url("../assets/images/rectangle@2x.png");
     height: 266px; }
 
   .page-logo img {
-    height: 22px; }
+    height: 21px; }
 
   .about-button {
     font-family: "Roboto Medium", arial; }
@@ -134,21 +139,17 @@ header {
   .nav {
     margin-top: 2%; }
 
-  .icon-box {
-    line-height: 27px;
-    padding: 0 10px;
-    width: 100px; }
-
   .icon-name {
-    font-size: 18px; }
+    font-size: 10px; }
 
   .header-icon-container {
     height: 60%; }
     .header-icon-container .icon-box {
       width: 120px;
-      line-height: 27px; }
+      line-height: 27px;
+      padding: 0 10px; }
       .header-icon-container .icon-box i {
-        font-size: 23px; }
+        font-size: 21px; }
 
   .intro-sentence {
     font-size: 9px;
@@ -163,16 +164,18 @@ header {
 .section-img .des-img {
   height: auto;
   width: 100%; }
+.section-img .customer-img {
+  height: 103%; }
 
 .section-title {
   font-family: "Roboto Light", arial;
   color: #444444; }
   .section-title span {
-    font-size: 41px;
+    font-size: 37px;
     padding: 0 20px; }
 
 .title-icon {
-  font-size: 30px; }
+  font-size: 29px; }
 
 .section-description .description-text,
 .section-description .section-intro-text {
@@ -180,19 +183,19 @@ header {
   font-family: "Roboto Regular", arial; }
 
 .section-intro-text {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic; }
 
 .description-text {
-  font-size: 13px;
-  line-height: 22px; }
+  font-size: 11px;
+  line-height: 20px; }
 
 .content-text p {
   color: #283238;
   font-family: "Roboto Regular", arial;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 24px;
-  width: 519px; }
+  width: 95%; }
 
 .content-icon {
   color: #8bc34a;
@@ -309,7 +312,7 @@ header {
     line-height: 30px;
     letter-spacing: -0.03px; }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /**** detail section ****/
   .detail-section {
     height: 526px; }
@@ -362,7 +365,7 @@ header {
       width: 600px;
       font-size: 18px;
       line-height: 30px; } }
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   /**** detail section ****/
   .detail-section {
     height: 687px; }
@@ -371,10 +374,10 @@ header {
     height: 80px; }
 
   .title-icon {
-    font-size: 20px; }
+    font-size: 15px; }
 
   .section-title span {
-    font-size: 27px;
+    font-size: 23px;
     padding: 0 5px; }
 
   .section-img {
@@ -382,7 +385,7 @@ header {
     padding-bottom: 10px; }
     .section-img .des-img {
       height: auto;
-      width: 450px; }
+      width: 100%; }
 
   .section-description {
     width: 100%;
@@ -391,7 +394,10 @@ header {
 
   .section-intro-text {
     margin-top: 5px;
-    font-size: 13px; }
+    font-size: 10px; }
+
+  .description-text {
+    font-size: 9px; }
 
   .button-container {
     height: auto; }
@@ -486,13 +492,13 @@ footer {
   .footer-icon-col .mobile-copyright {
     display: none; }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-row {
     width: 100%; }
 
   .footer-icon-col i {
     margin: 0 5px; } }
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   .footer-row {
     height: 75%;
     margin-top: 7%; }
