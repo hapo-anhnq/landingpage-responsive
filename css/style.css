@@ -367,6 +367,9 @@ body {
     width: 95%;
     line-height: 21px; }
 
+  .customers-section {
+    box-shadow: 0pt 0pt 3pt 3pt rgba(0, 0, 0, 0.05); }
+
   /**** customer list ****/
   .customer-list-section {
     height: 544px; }
