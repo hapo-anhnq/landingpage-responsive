@@ -79,6 +79,12 @@ body {
   box-shadow: 0pt 0pt 10pt 10pt rgba(0, 0, 0, 0.1);
 }
 
+.customer-section-des {
+  .section-intro-text {
+    margin: 10px 0 15px 0;
+  }
+}
+
 /**** function row ****/
 .function-section {
   background: $startButton_color;
