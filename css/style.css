@@ -443,7 +443,7 @@ body {
     height: 296px; }
 
   .function-name {
-    line-height: 13px; }
+    line-height: 15px; }
 
   .main-circle {
     font-size: 36px;
@@ -467,7 +467,8 @@ body {
     width: auto; }
 
   .customer-row-pagination {
-    height: 50px; }
+    height: 50px;
+    width: 55px; }
 
   .customer-row-quote {
     height: 44%; }
