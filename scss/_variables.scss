@@ -1,15 +1,11 @@
-$roboto_regular: 'Roboto Regular', arial;
-$roboto_light: 'Roboto Light', arial;
-$roboto_medium: 'Roboto Medium', arial;
+$roboto_regular: "Roboto Regular", arial;
+$roboto_light: "Roboto Light", arial;
+$roboto_medium: "Roboto Medium", arial;
 $booger_color: #8bc34a;
 
 .container-r {
   width: 65%;
   padding: 0 15px;
-}
-
-html {
-  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 768px) {
@@ -19,7 +15,7 @@ html {
 }
 
 /**** header ****/
-$startButton_color: linear-gradient(90deg,#429321, #b4ec51);
+$startButton_color: linear-gradient(90deg, #429321, #b4ec51);
 $startButton_shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
 
 @mixin navbar-font {
@@ -28,7 +24,7 @@ $startButton_shadow: 0 2pt 2pt 0 rgba(0, 0, 0, 0.5);
 }
 
 /**** function row ****/
-$row_bg_color: linear-gradient(90deg,#429321, #b4ec51);
+$row_bg_color: linear-gradient(90deg, #429321, #b4ec51);
 $index_bg_color: rgb(124, 179, 66);
 
 /**** footer ****/

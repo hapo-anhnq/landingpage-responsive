@@ -1,6 +1,7 @@
 footer {
   background: $footer-color;
   height: 190px;
+  overflow-x: hidden;
 }
 
 .footer-row {
@@ -68,7 +69,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
   .footer-row {
     height: 75%;
     margin-top: 7%;
@@ -97,7 +98,7 @@ footer {
     }
 
     .footer-icon-row {
-    margin-left: -10px;
+      margin-left: -10px;
     }
   }
 }
