@@ -229,6 +229,13 @@ body {
       line-height: 24px;
     }
   }
+
+  .customer-row-quote {
+    span {
+      width: 650px;
+      font-size: 14px;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
